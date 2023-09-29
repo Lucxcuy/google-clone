@@ -94,7 +94,6 @@ main .main-logo img {
     height: 18px;
     cursor: pointer;
 }
-
 .main-buttons {
     width: 530px;
     margin: 0 auto;
@@ -116,4 +115,32 @@ main .main-logo img {
     border: 1px solid #c6c6c6;
     box-shadow: 0 0px 1px #000001;
     color: #222;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.footer-left {
+    justify-self: left;
+}
+.footer-right {
+    justify-self: right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
 }
